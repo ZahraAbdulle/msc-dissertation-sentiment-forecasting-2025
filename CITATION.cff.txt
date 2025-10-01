@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "Deep Learning and Financial Sentiment Forecasting (MSc 2025)"
+authors:
+  - family-names: Abdulle
+    given-names: Zahra
+version: "0.1.0"
+date-released: "2025-10-01"
+message: "If you use this repository, please cite it."

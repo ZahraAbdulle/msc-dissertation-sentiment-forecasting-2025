@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+.venv/
+.env/
+dist/
+build/
+*.egg-info/
+
+# Data & outputs
+data/*/*.parquet
+data/*/*.feather
+data/*/*.pkl
+outputs/
+models/*/*/predictions_*.csv
+models/*/*/metrics_*.json
+models/*/*/run_config_*.json
+*.zip
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
