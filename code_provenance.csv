@@ -1,3 +1,10 @@
-component,provenance,source_repo,commit_sha,license
-transformer/runner.py,Adapted,oliverguhr/transformer-time-series-prediction,,MIT
-lstm/trainer.py,Adapted,jinglescode/time-series-forecasting-pytorch,,Apache-2.0
+﻿component,provenance,source_repo,commit_sha,license
+transformer/runner_transformer.py,Adapted,oliverguhr/transformer-time-series-prediction,93ee1e017c8f353825dea4f1ec67afaa6d107bbf,MIT
+lstm_se/runner_lstm_se.py,Adapted,jinglescode/time-series-forecasting-pytorch,f7e54711205ca29a06577a04047b4a40df32fdec,Apache-2.0
+lstm_se_tuned/runner_lstm_se_tuned.py,Adapted,jinglescode/time-series-forecasting-pytorch,f7e54711205ca29a06577a04047b4a40df32fdec,Apache-2.0
+hybrid/runner_hybrid.py [transformer base],Adapted,oliverguhr/transformer-time-series-prediction,93ee1e017c8f353825dea4f1ec67afaa6d107bbf,MIT
+hybrid/runner_hybrid.py [lstm base],Adapted,jinglescode/time-series-forecasting-pytorch,f7e54711205ca29a06577a04047b4a40df32fdec,Apache-2.0
+arima/runner_arima.py,Authored,,,Project-authored
+arimax/runner_arimax.py,Authored,,,Project-authored
+lstm_po_close/runner_lstm_po_close.py,Authored,,,Project-authored
+lstm_po_ohlcv/runner_lstm_po_ohlcv.py,Authored,,,Project-authored
