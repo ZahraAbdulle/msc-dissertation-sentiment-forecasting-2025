@@ -1,0 +1,2 @@
+artifact,source,time_window,notes
+data/final_inputs/TSLA_input.csv,internal pipeline,2021-01-01 -> 2023-12-31,engineered technicals + sentiment; Target = Close.shift(-1)

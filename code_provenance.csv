@@ -1,0 +1,3 @@
+component,provenance,source_repo,commit_sha,license
+transformer/runner.py,Adapted,oliverguhr/transformer-time-series-prediction,,MIT
+lstm/trainer.py,Adapted,jinglescode/time-series-forecasting-pytorch,,Apache-2.0
