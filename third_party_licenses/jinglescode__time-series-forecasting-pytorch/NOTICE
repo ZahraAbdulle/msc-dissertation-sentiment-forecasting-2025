@@ -1,0 +1,15 @@
+Project: transformer-time-series-prediction
+Upstream repository: https://github.com/oliverguhr/transformer-time-series-prediction
+Commit pinned: 93ee1e017c8f353825dea4f1ec67afaa6d107bbf
+Licence: MIT
+
+This dissertation project adapts code from the above repository.
+
+Adapted components:
+- transformer/runner_transformer.py
+- hybrid/runner_hybrid.py   [Transformer base block]
+
+Adaptations by: Zahra Abdulle (MSc Dissertation, Kingston University London, 2025)
+Purpose: Sentiment-enhanced daily stock forecasting using transformer encoders.
+Notes: IO handling, sentiment feature integration, and pipeline modifications.
+No endorsement by the upstream author is implied.
