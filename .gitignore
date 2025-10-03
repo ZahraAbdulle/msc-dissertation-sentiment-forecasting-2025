@@ -25,3 +25,9 @@ models/*/*/run_config_*.json
 Thumbs.db
 .vscode/
 .idea/
+# --- allow model outputs we actually want in the repo ---
+!outputs/
+!outputs/**/predictions_*.csv
+!outputs/**/metrics_*.json
+!outputs/**/run_config_*.json
+!outputs/**/training_curves_*.png
