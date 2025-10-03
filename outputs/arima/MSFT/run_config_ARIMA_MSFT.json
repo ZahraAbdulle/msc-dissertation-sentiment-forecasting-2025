@@ -1,0 +1,55 @@
+{
+  "model_id": "ARIMA",
+  "ticker": "MSFT",
+  "order": [
+    0,
+    1,
+    4
+  ],
+  "trend": "n",
+  "AIC_train": 2883.121995604989,
+  "AIC": 2883.121995604989,
+  "features_used": [
+    "Close"
+  ],
+  "seed": 42,
+  "seeds": {
+    "global": 42
+  },
+  "timezone": "America/New_York",
+  "market_close": "16:00",
+  "refit_policy": "expanding-origin",
+  "refit_protocol": "expanding_origin_one_step",
+  "cadence": "expanding_origin",
+  "expanding_origin": true,
+  "target_definition": "Close.shift(-1) created after all features",
+  "target_col": "Close",
+  "policy": {
+    "y_scaled": false,
+    "exog_used": false
+  },
+  "splits": {
+    "train_start": "2021-02-03",
+    "train_end": "2022-12-30",
+    "val_start": "2023-01-03",
+    "val_end": "2023-05-31",
+    "test_start": "2023-06-01",
+    "test_end": "2023-12-28"
+  },
+  "selection": {
+    "train_only_aic": true,
+    "lb_double_pass": true,
+    "lb_screen_pass": true,
+    "lb_train": {
+      "p10": 0.9999996424433911,
+      "p20": 0.9999999965619389
+    },
+    "lb_trainval": {
+      "p10": 0.9999984873504009,
+      "p20": 0.9999999570808367
+    },
+    "grid_pmax": 4,
+    "delta_aic_used": 4.0,
+    "top_k_used": 12
+  }
+}

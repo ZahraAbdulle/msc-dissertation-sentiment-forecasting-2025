@@ -1,0 +1,55 @@
+{
+  "model_id": "ARIMA",
+  "ticker": "TSLA",
+  "order": [
+    1,
+    1,
+    7
+  ],
+  "trend": "n",
+  "AIC_train": 3553.322106499052,
+  "AIC": 3553.322106499052,
+  "features_used": [
+    "Close"
+  ],
+  "seed": 42,
+  "seeds": {
+    "global": 42
+  },
+  "timezone": "America/New_York",
+  "market_close": "16:00",
+  "refit_policy": "expanding-origin",
+  "refit_protocol": "expanding_origin_one_step",
+  "cadence": "expanding_origin",
+  "expanding_origin": true,
+  "target_definition": "Close.shift(-1) created after all features",
+  "target_col": "Close",
+  "policy": {
+    "y_scaled": false,
+    "exog_used": false
+  },
+  "splits": {
+    "train_start": "2021-02-03",
+    "train_end": "2022-12-30",
+    "val_start": "2023-01-03",
+    "val_end": "2023-05-31",
+    "test_start": "2023-06-01",
+    "test_end": "2023-12-28"
+  },
+  "selection": {
+    "train_only_aic": true,
+    "lb_double_pass": true,
+    "lb_screen_pass": true,
+    "lb_train": {
+      "p10": 0.09608079882323414,
+      "p20": 0.4555473677092405
+    },
+    "lb_trainval": {
+      "p10": 0.06561186493274906,
+      "p20": 0.3313120670256253
+    },
+    "grid_pmax": 7,
+    "delta_aic_used": 5.0,
+    "top_k_used": 16
+  }
+}
