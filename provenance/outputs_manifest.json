@@ -1,0 +1,515 @@
+{
+    "generated_utc":  "2025-10-03T09:56:18Z",
+    "files":  [
+                  {
+                      "path":  "outputs\\.gitkeep",
+                      "size_bytes":  2,
+                      "sha256":  "7EB70257593DA06F682A3DDDA54A9D260D4FC514F645237F5CA74B08F8DA61A6"
+                  },
+                  {
+                      "path":  "outputs\\arimax\\AAPL\\metrics_ARIMAX_AAPL.json",
+                      "size_bytes":  528,
+                      "sha256":  "6C91BD1C988A4581611C8AAC829F35C3D02574285EF28D8ED33368A457573E3C"
+                  },
+                  {
+                      "path":  "outputs\\arimax\\AAPL\\predictions_ARIMAX_AAPL.csv",
+                      "size_bytes":  23620,
+                      "sha256":  "9C8EDF7425909DA9FCA109A20F2E2FC6D232D7DED83CBCC6478F1191A4DA6510"
+                  },
+                  {
+                      "path":  "outputs\\arimax\\AAPL\\run_config_ARIMAX_AAPL.json",
+                      "size_bytes":  5132,
+                      "sha256":  "0904F093B4DD9B3F6F4EEE401C113CAEAE682105921399198ED0331570F84FDA"
+                  },
+                  {
+                      "path":  "outputs\\arimax\\AMD\\metrics_ARIMAX_AMD.json",
+                      "size_bytes":  528,
+                      "sha256":  "6911AA369711E219C7E834FC70FAF5A8CF9DEB37DB59ED44969166B95276F2EE"
+                  },
+                  {
+                      "path":  "outputs\\arimax\\AMD\\predictions_ARIMAX_AMD.csv",
+                      "size_bytes":  23700,
+                      "sha256":  "67A335C13EBF39B03BDA217C2B9C345F8FB4296E659CA8A77DD41E89F2E0DDA8"
+                  },
+                  {
+                      "path":  "outputs\\arimax\\AMD\\run_config_ARIMAX_AMD.json",
+                      "size_bytes":  5139,
+                      "sha256":  "A1DD8E7DCDA1336E9248BD30680E0CEC7FEC74280AA139A4EBDC7A5C02269389"
+                  },
+                  {
+                      "path":  "outputs\\arimax\\AMZN\\metrics_ARIMAX_AMZN.json",
+                      "size_bytes":  530,
+                      "sha256":  "815D8F205DCAFF0F7B38398AF17325C8E35D72C4793077B119EB265F8E3D350E"
+                  },
+                  {
+                      "path":  "outputs\\arimax\\AMZN\\predictions_ARIMAX_AMZN.csv",
+                      "size_bytes":  23614,
+                      "sha256":  "D95E82B5DC1256C3A2F18DC82E7A94385AC90CEDC5789C12B6F970FCCEC460A2"
+                  },
+                  {
+                      "path":  "outputs\\arimax\\AMZN\\run_config_ARIMAX_AMZN.json",
+                      "size_bytes":  6955,
+                      "sha256":  "659427D8D183031D60F3F95A29D28656352A3B1B3688DC83892649932DB5B808"
+                  },
+                  {
+                      "path":  "outputs\\arimax\\MSFT\\metrics_ARIMAX_MSFT.json",
+                      "size_bytes":  530,
+                      "sha256":  "817A04A461155AB884270A4F5166A86FA0290BA5C79AF09A7B72E0BB8FA9CE6E"
+                  },
+                  {
+                      "path":  "outputs\\arimax\\MSFT\\predictions_ARIMAX_MSFT.csv",
+                      "size_bytes":  23347,
+                      "sha256":  "3936BBFF6DC48A3FCF3C37078018165DDA6639677F3957EB65AD6355A4463D92"
+                  },
+                  {
+                      "path":  "outputs\\arimax\\MSFT\\run_config_ARIMAX_MSFT.json",
+                      "size_bytes":  5116,
+                      "sha256":  "D75EA8555A29BBC64CAA6E752B5FF94EF2A914E8469F94160BA66445F46D7401"
+                  },
+                  {
+                      "path":  "outputs\\arimax\\TSLA\\metrics_ARIMAX_TSLA.json",
+                      "size_bytes":  527,
+                      "sha256":  "BA50177C9B38F80D74643F30C753C722FD2E307A644C5AFCE001F7AFCA8B5E41"
+                  },
+                  {
+                      "path":  "outputs\\arimax\\TSLA\\predictions_ARIMAX_TSLA.csv",
+                      "size_bytes":  23445,
+                      "sha256":  "E0B014B3D6713ABFA6B3862AE3E3C15EA638CF24FACA8BDED209E35CA49C8DCA"
+                  },
+                  {
+                      "path":  "outputs\\arimax\\TSLA\\run_config_ARIMAX_TSLA.json",
+                      "size_bytes":  5121,
+                      "sha256":  "2EC3893A424F0508DD81556BCD255405E2A25A12D5A2A07ED3852FD7674FBF93"
+                  },
+                  {
+                      "path":  "outputs\\figures\\.gitkeep",
+                      "size_bytes":  2,
+                      "sha256":  "7EB70257593DA06F682A3DDDA54A9D260D4FC514F645237F5CA74B08F8DA61A6"
+                  },
+                  {
+                      "path":  "outputs\\hybrid\\AAPL\\metrics_HYBRID_AAPL.json",
+                      "size_bytes":  341,
+                      "sha256":  "A265C7DF58957D2529F192DE0D9C1A960077FBA93FF4954BAAD2AE2053E8476C"
+                  },
+                  {
+                      "path":  "outputs\\hybrid\\AAPL\\predictions_HYBRID_AAPL.csv",
+                      "size_bytes":  10096,
+                      "sha256":  "931CE16DB405E29CB469E27AF75BFDBC11567302CD1A4316FF5B8A935E1A9ABA"
+                  },
+                  {
+                      "path":  "outputs\\hybrid\\AAPL\\run_config_HYBRID_AAPL.json",
+                      "size_bytes":  21948,
+                      "sha256":  "E74010EDB51F2CF997DB0116D8B4D4FE8FC24CB7546906461BEDF681161A9683"
+                  },
+                  {
+                      "path":  "outputs\\hybrid\\AMD\\metrics_TRANSFORMER_MSFT.json",
+                      "size_bytes":  324,
+                      "sha256":  "CADD28E608D91EBC3B9CFC74BBE94D5FD4CDEB1AD8A333B983FC7E3D046F0952"
+                  },
+                  {
+                      "path":  "outputs\\hybrid\\AMD\\predictions_HYBRID_AMD.csv",
+                      "size_bytes":  10130,
+                      "sha256":  "033F2F69A0F0313CDDDAD9ACD249E41672C2DD73D134FFD30C175D63F73BB971"
+                  },
+                  {
+                      "path":  "outputs\\hybrid\\AMD\\run_config_HYBRID_AMD.json",
+                      "size_bytes":  21938,
+                      "sha256":  "FBF743FB79F43547B65FB5710001F4C6C2F65863E67E483314537E4AD21C5425"
+                  },
+                  {
+                      "path":  "outputs\\hybrid\\AMZN\\metrics_HYBRID_AMZN.json",
+                      "size_bytes":  340,
+                      "sha256":  "493A13E93D09CBF2C90A6E2AF8FCB995886370E4478C307C16330046627B85E0"
+                  },
+                  {
+                      "path":  "outputs\\hybrid\\AMZN\\predictions_HYBRID_AMZN.csv",
+                      "size_bytes":  10104,
+                      "sha256":  "16DE28A84D6CDC99C06E79BF388190BC8DE5C8C96B3AF404A0CF0DDD69A6D968"
+                  },
+                  {
+                      "path":  "outputs\\hybrid\\AMZN\\run_config_HYBRID_AMZN.json",
+                      "size_bytes":  21948,
+                      "sha256":  "7A45A0D8544827F2592882BA811A7E14C8FE4392D4D0A0C737A558ADDC5E5DBC"
+                  },
+                  {
+                      "path":  "outputs\\hybrid\\MSFT\\metrics_HYBRID_MSFT.json",
+                      "size_bytes":  275,
+                      "sha256":  "DB5190F4361EB9D7920EF27C4163B701A2E7E1E4FAF14295940B45B5DF239883"
+                  },
+                  {
+                      "path":  "outputs\\hybrid\\MSFT\\predictions_HYBRID_MSFT.csv",
+                      "size_bytes":  9994,
+                      "sha256":  "2E643EB3222E4F0CA3305EE8C3A3791E437735A971741660564A2B5B3A2E1AFF"
+                  },
+                  {
+                      "path":  "outputs\\hybrid\\MSFT\\run_config_HYBRID_MSFT.json",
+                      "size_bytes":  21937,
+                      "sha256":  "AFEECB73E1F2C2FC8671369EB929E785ADF05527F0F246BBDE9A7F5D3059A077"
+                  },
+                  {
+                      "path":  "outputs\\hybrid\\TSLA\\metrics_HYBRID_TSLA.json",
+                      "size_bytes":  336,
+                      "sha256":  "303920F3A9E6A944FB78D0531CD5C57EE2A2A49B14BC77FEA0953FC53197254D"
+                  },
+                  {
+                      "path":  "outputs\\hybrid\\TSLA\\predictions_HYBRID_TSLA.csv",
+                      "size_bytes":  9997,
+                      "sha256":  "90021599D9FC2EDDEF3A7D26697832165E29B5FB0F2F6C433CC769B8F7C07E9E"
+                  },
+                  {
+                      "path":  "outputs\\hybrid\\TSLA\\run_config_HYBRID_TSLA.json",
+                      "size_bytes":  21941,
+                      "sha256":  "BB3F2FFCAF1B252FD9C3EFF3271A2E69FB97DB46F62A54540ACCEE9DC942FAF2"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_close\\AAPL\\metrics_LSTM_PO_CloseOnly_AAPL.json",
+                      "size_bytes":  594,
+                      "sha256":  "F2BDF963B0D3ADBBB6F848BF1A0CDF010DACDD1A8D4861C491CA156945298248"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_close\\AAPL\\predictions_LSTM_PO_CloseOnly_AAPL.csv",
+                      "size_bytes":  9921,
+                      "sha256":  "11B947E3038BEDED7066C63CD0AFB9FFE0D717D276C413061BC82669008C30F7"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_close\\AAPL\\run_config_LSTM_PO_CloseOnly_AAPL.json",
+                      "size_bytes":  782,
+                      "sha256":  "8D31C92604C2DD77AFBA6A7E184A2EDED6E29F03D7C38CECE63EAFD4E4AEF321"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_close\\AMD\\metrics_LSTM_PO_CloseOnly_AMD.json",
+                      "size_bytes":  588,
+                      "sha256":  "BE53A76466337E1EC22DF076C17B42B17B1DB26E41F3C4E10D6B81747E42D2E8"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_close\\AMD\\predictions_LSTM_PO_CloseOnly_AMD.csv",
+                      "size_bytes":  10072,
+                      "sha256":  "D39463132A6783E4905BEF083ED97CE194BF44E07951FB7DFD163E54323FA46A"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_close\\AMD\\run_config_LSTM_PO_CloseOnly_AMD.json",
+                      "size_bytes":  781,
+                      "sha256":  "13AD20D67EA9252CBE27F22D62666FE9C05452FF61F67C6FC4318F0467FA55EF"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_close\\AMZN\\metrics_LSTM_PO_CloseOnly_AMZN.json",
+                      "size_bytes":  592,
+                      "sha256":  "D9C1FFCB618E464F237F91344F58E4E936C516D4EB09D6B1B5F4E5E01FF8B68F"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_close\\AMZN\\predictions_LSTM_PO_CloseOnly_AMZN.csv",
+                      "size_bytes":  9948,
+                      "sha256":  "7F027ADB869624F41D60E30FF33D1F43AFB4C5E5B5D4ADD7A2B3BAA1A79D8094"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_close\\AMZN\\run_config_LSTM_PO_CloseOnly_AMZN.json",
+                      "size_bytes":  782,
+                      "sha256":  "D816D894635D50455F8CB542E220E1C642D61592D172C15084AC4966B786C4F6"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_close\\MSFT\\metrics_LSTM_PO_CloseOnly_MSFT.json",
+                      "size_bytes":  573,
+                      "sha256":  "8693D60946ADD7506CC9EE5A0E9765F03A210ADA4C947F10F91F2C2F475FE90C"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_close\\MSFT\\predictions_LSTM_PO_CloseOnly_MSFT.csv",
+                      "size_bytes":  9744,
+                      "sha256":  "F78D2F3B4673F50F95F9BA435F5AF57E14C82610C3B88FC447A256DD60330196"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_close\\MSFT\\run_config_LSTM_PO_CloseOnly_MSFT.json",
+                      "size_bytes":  782,
+                      "sha256":  "864E9160F36F17B56195295FF443A8047C47E2EBE71B713843BDF032184D05BE"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_ohlcv\\AAPL\\metrics_LSTM_PO_AAPL.json",
+                      "size_bytes":  590,
+                      "sha256":  "BB7B3AA21CE2C35AF90F748BFE4EFB72847640FAC9F5C1605E761075E8F45DB3"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_ohlcv\\AAPL\\predictions_LSTM_PO_AAPL.csv",
+                      "size_bytes":  9923,
+                      "sha256":  "75ED697FEE65DAF0BEE4BD664E2F825EE59C07C8C7C256D35E3551E63420D62F"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_ohlcv\\AAPL\\run_config_LSTM_PO_AAPL.json",
+                      "size_bytes":  819,
+                      "sha256":  "2D430588FAD8CD3D8D27C28CE7D663E4D03B429ADB917E9BF51583F64A6E057F"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_ohlcv\\AMD\\metrics_LSTM_PO_AMD.json",
+                      "size_bytes":  573,
+                      "sha256":  "B907E4223EEC5532B29DFF329F8223CABC03BC6AA300046F1A492F6962062039"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_ohlcv\\AMD\\predictions_LSTM_PO_AMD.csv",
+                      "size_bytes":  10079,
+                      "sha256":  "B614CBF2E120A32AFCA6E0B23F673F39B4A66A9B8724EF12574C13B78C363E57"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_ohlcv\\AMD\\run_config_LSTM_PO_AMD.json",
+                      "size_bytes":  818,
+                      "sha256":  "89000039FC350496955F4C073C7BDB858F48C055EB2B3C61AC8FA8DC8262956A"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_ohlcv\\AMZN\\metrics_LSTM_PO_AMZN.json",
+                      "size_bytes":  591,
+                      "sha256":  "3B7A1520EF3E6122CC518C1F8DF5112D49F61E1CDD953D83BB75CEA856138209"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_ohlcv\\AMZN\\predictions_LSTM_PO_AMZN.csv",
+                      "size_bytes":  10000,
+                      "sha256":  "988103F9FF0FB125BD0B18729718746861DF58D94B0C1AA0EA9B7C4617436A8A"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_ohlcv\\AMZN\\run_config_LSTM_PO_AMZN.json",
+                      "size_bytes":  819,
+                      "sha256":  "C51124FDE726ABE6BF68CC8F1DFF9AC44D27D36D672122E09D9C14781DFA31FA"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_ohlcv\\MSFT\\metrics_LSTM_PO_MSFT.json",
+                      "size_bytes":  576,
+                      "sha256":  "0E51F607A0B02170C498FFE2AC6FF4DEA475D60076EA3D0DB2F5BF98C12C8ED5"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_ohlcv\\MSFT\\predictions_LSTM_PO_MSFT.csv",
+                      "size_bytes":  9793,
+                      "sha256":  "534E04B81DE9C29CEB63A017DF18E5B4382BDBB10C29A0062DA92E45CBC26C18"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_ohlcv\\MSFT\\run_config_LSTM_PO_MSFT.json",
+                      "size_bytes":  819,
+                      "sha256":  "7BC0E85175299077624F7CB07DCF838B774F20AD3330DAB7582F2E47C95CA14C"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_ohlcv\\TSLA\\metrics_LSTM_PO_TSLA.json",
+                      "size_bytes":  589,
+                      "sha256":  "C98638077900DD7F626141370FDD6AF55BCB38D205318E55BCF393001E61F7F6"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_ohlcv\\TSLA\\predictions_LSTM_PO_TSLA.csv",
+                      "size_bytes":  9881,
+                      "sha256":  "ECFAA6849693657DC704FDDDCB6256BD8A88E921945AD8D00BA459BA88BF6C08"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_ohlcv\\TSLA\\run_config_LSTM_PO_TSLA.json",
+                      "size_bytes":  819,
+                      "sha256":  "41B568EC6B9615FFABF93F7C7AA38E27EB8B7DBC63C777BEF66E0682CB3E37E9"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se\\AAPL\\metrics_LSTM_SE_AAPL.json",
+                      "size_bytes":  352,
+                      "sha256":  "2F9837A4F06422D2B58C809B99575934896B8A7FD209A693A4CA02A5C45D74B5"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se\\AAPL\\predictions_LSTM_SE_AAPL.csv",
+                      "size_bytes":  9931,
+                      "sha256":  "3B2043D7B1359BDFF4ABBAC485FCA79923183A081EDC8432251F69997D980B07"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se\\AAPL\\run_config_LSTM_SE_AAPL.json",
+                      "size_bytes":  4415,
+                      "sha256":  "D9C28C46CC9F644683FB1EA530A9945FD9FB08DC193639E9123FF73C557A2552"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se\\AMD\\metrics_LSTM_SE_AMD.json",
+                      "size_bytes":  348,
+                      "sha256":  "21255CD65AC2B14DE82422524A747782609E55B1D76B0ED79C9757DB623E58BD"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se\\AMD\\predictions_LSTM_SE_AMD.csv",
+                      "size_bytes":  10088,
+                      "sha256":  "79DFB08B903602A90C865BBC73412B60BDF4C3E8D355CE827751390BF4DAF0E0"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se\\AMD\\run_config_LSTM_SE_AMD.json",
+                      "size_bytes":  4414,
+                      "sha256":  "57ECF1F2CE9B5219BA77019115B078144AFD6AD9537B6A86B5BF377215CC8B90"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se\\AMZN\\metrics_LSTM_SE_AMZN.json",
+                      "size_bytes":  349,
+                      "sha256":  "080B4BBC3902C9AF2C69C5B61024F62B4B1B232BDE64933CF4E7192B7375E649"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se\\AMZN\\predictions_LSTM_SE_AMZN.csv",
+                      "size_bytes":  10023,
+                      "sha256":  "B94418A21E7084E2963990FDFAB7CC7696750A342C72A1D61D0C273C88A7B61A"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se\\AMZN\\run_config_LSTM_SE_AMZN.json",
+                      "size_bytes":  4415,
+                      "sha256":  "0F7BE0B38F2D8A607C6E3C81BEA783C6CA41EFBDB5F35E20E088101469A27C2D"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se\\MSFT\\metrics_LSTM_SE_MSFT.json",
+                      "size_bytes":  354,
+                      "sha256":  "F739C25E08F09BBF8A8BA360DD1072C5924C04AAFE82B363BE2BD42FE0C6A973"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se\\MSFT\\predictions_LSTM_SE_MSFT.csv",
+                      "size_bytes":  9811,
+                      "sha256":  "54B1837FDD067EC18BBF96C810BB418D4FE37D1AAD7C3D60B3193E8BCCF0865A"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se\\MSFT\\run_config_LSTM_SE_MSFT.json",
+                      "size_bytes":  4415,
+                      "sha256":  "7712EA0E9FE5CDD4FD32ED9C480E412D81641EF9AE4B72C8064A8C8421CC3163"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se_hypertuned\\AAPL\\metrics_LSTM_SE_HYPERTUNED_AAPL.json",
+                      "size_bytes":  372,
+                      "sha256":  "71C963ACFA050C7ADB97954EE748C5574ED7B46087CF5B620C261F6538FE9D70"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se_hypertuned\\AAPL\\predictions_LSTM_SE_HYPERTUNED_AAPL.csv",
+                      "size_bytes":  6387,
+                      "sha256":  "5A8E9EFFC60ADCA15D100C8ADB67F93182920F7969A14C51CCFEF7CF149FAFBF"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se_hypertuned\\AAPL\\run_config_LSTM_SE_HYPERTUNED_AAPL.json",
+                      "size_bytes":  5119,
+                      "sha256":  "76317814B47C79F8FC7D6519703EC4B56BBEBD59E3C0134F57AB95B9D01FFA15"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se_hypertuned\\AMD\\metrics_LSTM_SE_HYPERTUNED_AMD.json",
+                      "size_bytes":  371,
+                      "sha256":  "B3A4AC7284DEC0E104203A027D37A1F46B5E8A5B657BDDED18C4C81C7FB326A4"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se_hypertuned\\AMD\\predictions_LSTM_SE_HYPERTUNED_AMD.csv",
+                      "size_bytes":  6316,
+                      "sha256":  "F8E2E51F46928940E1A58DC147B8C5958133DA5A94CAFB90247E737C2A82E1BE"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se_hypertuned\\AMD\\run_config_LSTM_SE_HYPERTUNED_AMD.json",
+                      "size_bytes":  5114,
+                      "sha256":  "A2012ED4DEB2023B1DF7FE55161B7B34B7E01562E5B1F1DCFD044EE2BE34869C"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se_hypertuned\\AMZN\\metrics_LSTM_SE_HYPERTUNED_AMZN.json",
+                      "size_bytes":  367,
+                      "sha256":  "0EEE1E2588956D223E271CED1C098EF55037049D314E9A169DCCFA7732DB46B8"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se_hypertuned\\AMZN\\predictions_LSTM_SE_HYPERTUNED_AMZN.csv",
+                      "size_bytes":  6354,
+                      "sha256":  "3448376A788F66E2B3C3BA62CB928D0C3C25D52AD68001FCFDBE7716841F198F"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se_hypertuned\\AMZN\\run_config_LSTM_SE_HYPERTUNED_AMZN.json",
+                      "size_bytes":  5113,
+                      "sha256":  "8BA079B9961E1CCEA2F798F9B007283656C4F96EBB867C7FFE09F662568074A9"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se_hypertuned\\MSFT\\metrics_LSTM_SE_HYPERTUNED_MSFT.json",
+                      "size_bytes":  373,
+                      "sha256":  "30D71C7087927A1E911AF506B290DFB212D558BA7E5A1A47CF0E4B3D0B5E12F7"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se_hypertuned\\MSFT\\predictions_LSTM_SE_HYPERTUNED_MSFT.csv",
+                      "size_bytes":  6366,
+                      "sha256":  "146219270897444C359C0976308239DB88761575D2117A8FFD48029E0799EFC3"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se_hypertuned\\MSFT\\run_config_LSTM_SE_HYPERTUNED_MSFT.json",
+                      "size_bytes":  5128,
+                      "sha256":  "46FAEB404138D11EF581CAFEAEB03DD1290F14F015D44A0FA1FC82663D2FC1C0"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se_hypertuned\\TSLA\\metrics_LSTM_SE_HYPERTUNED_TSLA.json",
+                      "size_bytes":  364,
+                      "sha256":  "44CED1614992F670BCAE37C05624DE2D0E0411BA23F2CC58BD45A96AE866D56B"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se_hypertuned\\TSLA\\predictions_LSTM_SE_HYPERTUNED_TSLA.csv",
+                      "size_bytes":  6333,
+                      "sha256":  "2936EE8D5B6EBE127A39B31E484DB6B348B93EC4D575295FE2C234567F54A0B7"
+                  },
+                  {
+                      "path":  "outputs\\lstm_se_hypertuned\\TSLA\\run_config_LSTM_SE_HYPERTUNED_TSLA.json",
+                      "size_bytes":  5111,
+                      "sha256":  "12E9941911D6709D6161CC554FEF4E2FAC447B8D6983471C6B23D14E1ED89AFE"
+                  },
+                  {
+                      "path":  "outputs\\tables\\.gitkeep",
+                      "size_bytes":  2,
+                      "sha256":  "7EB70257593DA06F682A3DDDA54A9D260D4FC514F645237F5CA74B08F8DA61A6"
+                  },
+                  {
+                      "path":  "outputs\\transformer\\AAPL\\metrics_TRANSFORMER_AAPL.json",
+                      "size_bytes":  328,
+                      "sha256":  "8E65DA90DE103FFF4BF957EE4714732B0D63B44AAA9C09B1ED8FFDE507BB40F9"
+                  },
+                  {
+                      "path":  "outputs\\transformer\\AAPL\\predictions_TRANSFORMER_AAPL.csv",
+                      "size_bytes":  9942,
+                      "sha256":  "B3964FE15F946378BFE36C09D38CEFE21240FC5D756B26A068BC1768423299CF"
+                  },
+                  {
+                      "path":  "outputs\\transformer\\AAPL\\run_config_TRANSFORMER_AAPL.json",
+                      "size_bytes":  2310,
+                      "sha256":  "5C256D1011FD68C02E718E55023E1E20585C2611B09B2DDF45765560FBE28211"
+                  },
+                  {
+                      "path":  "outputs\\transformer\\AMD\\metrics_TRANSFORMER_AMD.json",
+                      "size_bytes":  325,
+                      "sha256":  "2B5EB6E5837221E7E54D049D1DE61941D207D45982D74C958DB2DDA9248FC8E8"
+                  },
+                  {
+                      "path":  "outputs\\transformer\\AMD\\predictions_TRANSFORMER_AMD.csv",
+                      "size_bytes":  10023,
+                      "sha256":  "103829811DC03B91EE05FA9FD04EFC870C8FC8AFD40A9D8F2DC7FFDE95A21DDE"
+                  },
+                  {
+                      "path":  "outputs\\transformer\\AMD\\run_config_TRANSFORMER_AMD.json",
+                      "size_bytes":  2310,
+                      "sha256":  "2397C3982BD2AE6ACF591ECC81219ADEF3FC648371097B3EE39D3BAC5E15C306"
+                  },
+                  {
+                      "path":  "outputs\\transformer\\AMZN\\metrics_TRANSFORMER_AMZN.json",
+                      "size_bytes":  327,
+                      "sha256":  "0ACE4F49BC5C15EED425D056AE7D7E8A17E1DCF064A0EE897DD18C81A4EA80E3"
+                  },
+                  {
+                      "path":  "outputs\\transformer\\AMZN\\predictions_TRANSFORMER_AMZN.csv",
+                      "size_bytes":  10030,
+                      "sha256":  "29FBC6A7EA6355EDB071C759DA416C82C457B1D776A3449EE28FBA833D6216F2"
+                  },
+                  {
+                      "path":  "outputs\\transformer\\AMZN\\run_config_TRANSFORMER_AMZN.json",
+                      "size_bytes":  2310,
+                      "sha256":  "1BB7158891EEE72F91D8EA0C58453B5CC8F2AC1EC2447B439C8911235DFFD37D"
+                  },
+                  {
+                      "path":  "outputs\\transformer\\MSFT\\metrics_TRANSFORMER_MSFT.json",
+                      "size_bytes":  324,
+                      "sha256":  "CADD28E608D91EBC3B9CFC74BBE94D5FD4CDEB1AD8A333B983FC7E3D046F0952"
+                  },
+                  {
+                      "path":  "outputs\\transformer\\MSFT\\predictions_TRANSFORMER_MSFT.csv",
+                      "size_bytes":  9790,
+                      "sha256":  "DB5EB6F28CB06502FBDC786B93777FE616B0204BB06344ED9C5178F447F2E28B"
+                  },
+                  {
+                      "path":  "outputs\\transformer\\MSFT\\run_config_TRANSFORMER_MSFT.json",
+                      "size_bytes":  2313,
+                      "sha256":  "1A6B5436767158F2C279B8176A367572D81CFD1910E1EFCC896F7B97E49E6A43"
+                  },
+                  {
+                      "path":  "outputs\\transformer\\TSLA\\metrics_TRANSFORMER_TSLA.json",
+                      "size_bytes":  325,
+                      "sha256":  "C00333AEA568BE3F4DE0A791D5B65ADD6A795CCA0976FC83E1290D716560DF33"
+                  },
+                  {
+                      "path":  "outputs\\transformer\\TSLA\\predictions_TRANSFORMER_TSLA.csv",
+                      "size_bytes":  9911,
+                      "sha256":  "C0EE4BD0D0B877E337478251EE66C9DC380749A83CEF23FAE37686E540A697A0"
+                  },
+                  {
+                      "path":  "outputs\\transformer\\TSLA\\run_config_TRANSFORMER_TSLA.json",
+                      "size_bytes":  2314,
+                      "sha256":  "5878F8CE83638A17EAA89D137923F11881FA0CCFA0D476E70944177A3DABC742"
+                  }
+              ]
+}
