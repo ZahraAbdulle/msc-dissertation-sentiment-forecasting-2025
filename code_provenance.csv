@@ -1,10 +1,4 @@
-﻿component,provenance,source_repo,commit_sha,license
-transformer/runner_transformer.py,Adapted,oliverguhr/transformer-time-series-prediction,93ee1e017c8f353825dea4f1ec67afaa6d107bbf,MIT
-lstm_se/runner_lstm_se.py,Adapted,jinglescode/time-series-forecasting-pytorch,f7e54711205ca29a06577a04047b4a40df32fdec,Apache-2.0
-lstm_se_tuned/runner_lstm_se_tuned.py,Adapted,jinglescode/time-series-forecasting-pytorch,f7e54711205ca29a06577a04047b4a40df32fdec,Apache-2.0
-hybrid/runner_hybrid.py [transformer base],Adapted,oliverguhr/transformer-time-series-prediction,93ee1e017c8f353825dea4f1ec67afaa6d107bbf,MIT
-hybrid/runner_hybrid.py [lstm base],Adapted,jinglescode/time-series-forecasting-pytorch,f7e54711205ca29a06577a04047b4a40df32fdec,Apache-2.0
-arima/runner_arima.py,Authored,,,Project-authored
-arimax/runner_arimax.py,Authored,,,Project-authored
-lstm_po_close/runner_lstm_po_close.py,Authored,,,Project-authored
-lstm_po_ohlcv/runner_lstm_po_ohlcv.py,Authored,,,Project-authored
+﻿module,origin,repo_slug,commit_sha,licence
+arima/runner.py,Authored,YourUser/msc-dissertation-sentiment-forecasting-2025,0437f6ba0220b118f64f8e076913efc39ca40722,MIT
+arimax/runner.py,Authored,YourUser/msc-dissertation-sentiment-forecasting-2025,0437f6ba0220b118f64f8e076913efc39ca40722,MIT
+utils/zero_preserving_scaler.py,Authored,YourUser/msc-dissertation-sentiment-forecasting-2025,0437f6ba0220b118f64f8e076913efc39ca40722,MIT
