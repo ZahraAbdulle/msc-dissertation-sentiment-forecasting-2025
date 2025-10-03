@@ -1,0 +1,224 @@
+{
+  "model_id": "ARIMAX",
+  "ticker": "AMD",
+  "order": [
+    0,
+    1,
+    2
+  ],
+  "trend": "n",
+  "AIC": 2622.3947435863683,
+  "AIC_train": 2622.3947435863683,
+  "aic_selected": {
+    "p": 0,
+    "d": 1,
+    "q": 2,
+    "trend": "n",
+    "AIC": 2622.3947435863683
+  },
+  "seed": 42,
+  "seeds": {
+    "python": 42,
+    "numpy": 42,
+    "global": 42
+  },
+  "cadence": "expanding_origin",
+  "refit_protocol": "expanding_origin_one_step",
+  "refit_details": {
+    "reestimate_each_step": true,
+    "warm_start_previous_params": true,
+    "fit_method": "lbfgs_then_nelder_mead_fallback",
+    "forecast_horizon": 1
+  },
+  "features_used": [
+    "Return_1d",
+    "LogRet_1d",
+    "Vol_7",
+    "Vol_21",
+    "SMA_7",
+    "SMA_21",
+    "RSI_14",
+    "MACD",
+    "MACD_Signal",
+    "Nw_SP500_active_k",
+    "Nw_SP500_active_rl",
+    "Nw_SP500_burst_day",
+    "Nw_SP500_count_items",
+    "Nw_SP500_ewma3_s",
+    "Nw_SP500_ewma7_s",
+    "Nw_SP500_mean_p_neg",
+    "Nw_SP500_mean_p_neu",
+    "Nw_SP500_mean_p_pos",
+    "Nw_SP500_mean_s",
+    "Nw_SP500_median_s",
+    "Nw_SP500_p_neg_share",
+    "Nw_SP500_p_neu_share",
+    "Nw_SP500_p_pos_share",
+    "Nw_SP500_q10_s",
+    "Nw_SP500_q90_s",
+    "Nw_SP500_std_s",
+    "Nw_SP500_unique_authors",
+    "Nw_SP500_z_mean_s",
+    "Nw_SP500_zero_day",
+    "Rd_active_k",
+    "Rd_active_rl",
+    "Rd_burst_day",
+    "Rd_count_items",
+    "Rd_ewma3_s",
+    "Rd_ewma7_s",
+    "Rd_mean_p_neg",
+    "Rd_mean_p_neu",
+    "Rd_mean_p_pos",
+    "Rd_mean_s",
+    "Rd_median_s",
+    "Rd_p_neg_share",
+    "Rd_p_neu_share",
+    "Rd_p_pos_share",
+    "Rd_q10_s",
+    "Rd_q90_s",
+    "Rd_std_s",
+    "Rd_unique_authors",
+    "Rd_z_mean_s",
+    "Rd_zero_day",
+    "Tw_active_k",
+    "Tw_active_rl",
+    "Tw_burst_day",
+    "Tw_count_items",
+    "Tw_ewma3_s",
+    "Tw_ewma7_s",
+    "Tw_mean_p_neg",
+    "Tw_mean_p_neu",
+    "Tw_mean_p_pos",
+    "Tw_mean_s",
+    "Tw_median_s",
+    "Tw_p_neg_share",
+    "Tw_p_neu_share",
+    "Tw_p_pos_share",
+    "Tw_q10_s",
+    "Tw_q90_s",
+    "Tw_std_s",
+    "Tw_unique_authors",
+    "Tw_z_mean_s",
+    "Tw_zero_day"
+  ],
+  "features_used_count": 69,
+  "exog_scaling": "none",
+  "timezone": "America/New_York",
+  "market_close": "16:00",
+  "exog_cutoff_note": "All exog built <=16:00 ET; no look-ahead.",
+  "exog_input_evidence": {
+    "filename": "exog_AMD.csv",
+    "sha256": "5be08b4ea39f02bb30f5016c4d530d89224fe25f28bbc2b750e6df16f9317ea6",
+    "n_rows": 731,
+    "date_min": "2021-02-03",
+    "date_max": "2023-12-28"
+  },
+  "sentiment_zero_encoding": true,
+  "expanding_origin": true,
+  "target_definition": "Target = Close.shift(-1); y_true = Close[t+1], y_prev = Close[t]",
+  "target_col": "Target",
+  "policy": {
+    "y_scaled": false,
+    "exog_lag": 0
+  },
+  "epsilon_for_DA_and_sign_rule": 0.001,
+  "sharpe_annualisation": "sqrt_252",
+  "splits": {
+    "train": [
+      "2021-02-03",
+      "2022-12-30"
+    ],
+    "val": [
+      "2023-01-03",
+      "2023-05-31"
+    ],
+    "test": [
+      "2023-06-01",
+      "2023-12-28"
+    ]
+  },
+  "n_test_expected": 146,
+  "u2_baseline": "naive_last_close_y_true_shift",
+  "turnover_definition": "count sign changes including initial entry",
+  "test_date_min": "2023-06-01",
+  "test_date_max": "2023-12-28",
+  "parameter_count": 72,
+  "inline_truth_override": {
+    "2023-12-29": 147.41
+  },
+  "aic_search_scope": "Train only",
+  "spec_fixed_on_val_test": true,
+  "band_calibration": {
+    "PICP_95": 0.9794520547945206,
+    "MPIW_95": 17.781699261532115,
+    "PICP_80": 0.9383561643835616,
+    "MPIW_80": 11.626828200114833,
+    "nominal": 0.95,
+    "near_nominal_95": true
+  },
+  "n_test_rows": 146,
+  "evaluation_policy": "all rows evaluated (no exclusions)",
+  "intervals_note": "Intervals rebuilt from level residual \u03c3=4.536231.",
+  "intervals_sigma_used": 4.536231125110433,
+  "intervals_sigma_policy": {
+    "use_robust_sigma": false,
+    "arch_lm_sig_threshold": 0.01,
+    "arch_lm_pvalue_test": 0.9999997994975807
+  },
+  "heteroskedasticity_flag": false,
+  "prediction_fallbacks": [],
+  "prediction_fallbacks_count": 0,
+  "prediction_outlier_guard_dates": [],
+  "prediction_outlier_guard_count": 0,
+  "prediction_outlier_guard_cap": 47.14999389648441,
+  "prediction_outlier_guard_stats": {
+    "med_abs_delta_train": 1.8300018310546733,
+    "q99_delta_train": 9.429998779296882
+  },
+  "scale_sanity": {
+    "status": "warning",
+    "level_median_abs": 111.54999923706055,
+    "med_abs": 1.8959869649261307,
+    "med_abs_naive": 1.8149986267089773,
+    "rmse": 4.545985807063413,
+    "rmse_naive": 3.0020887819561906,
+    "ratio_med_mag": 0.9981749337834871
+  },
+  "aic_top5_preview": [
+    {
+      "p": 0,
+      "d": 1,
+      "q": 2,
+      "trend": "n",
+      "AIC": 2622.3947435863683
+    },
+    {
+      "p": 1,
+      "d": 1,
+      "q": 2,
+      "trend": "n",
+      "AIC": 2624.0140685177157
+    },
+    {
+      "p": 0,
+      "d": 1,
+      "q": 2,
+      "trend": "c",
+      "AIC": 2624.219505541272
+    },
+    {
+      "p": 0,
+      "d": 1,
+      "q": 1,
+      "trend": "n",
+      "AIC": 2624.562890322044
+    },
+    {
+      "p": 2,
+      "d": 1,
+      "q": 2,
+      "trend": "n",
+      "AIC": 2625.294089918604
+    }
+  ]
+}

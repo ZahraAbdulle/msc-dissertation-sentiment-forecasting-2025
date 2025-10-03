@@ -1,0 +1,245 @@
+{
+  "reported_model_name": "LSTM (sentiment-enhanced) - monthly refit",
+  "model_id": "LSTM_SE_TUNED",
+  "ticker": "AMD",
+  "splits": {
+    "train": [
+      "2021-02-03",
+      "2022-12-30"
+    ],
+    "val": [
+      "2023-01-03",
+      "2023-05-31"
+    ],
+    "test": [
+      "2023-06-01",
+      "2023-12-28"
+    ],
+    "n_test": 146
+  },
+  "cadence": "monthly_refit",
+  "refit_dates": [
+    "2023-06-01",
+    "2023-07-03",
+    "2023-08-01",
+    "2023-09-01",
+    "2023-10-02",
+    "2023-11-01",
+    "2023-12-01"
+  ],
+  "epochs_per_refit": [
+    262,
+    280,
+    282,
+    258,
+    272,
+    262,
+    244
+  ],
+  "early_stopping": {
+    "policy": {
+      "patience": 15
+    },
+    "per_refit": [
+      {
+        "refit_index": 1,
+        "refit_date": "2023-06-01",
+        "epochs_run": 262,
+        "best_epoch": 246,
+        "best_val_loss": 27.281644210074713,
+        "early_stop_triggered": true
+      },
+      {
+        "refit_index": 2,
+        "refit_date": "2023-07-03",
+        "epochs_run": 280,
+        "best_epoch": 264,
+        "best_val_loss": 24.38561530252105,
+        "early_stop_triggered": true
+      },
+      {
+        "refit_index": 3,
+        "refit_date": "2023-08-01",
+        "epochs_run": 282,
+        "best_epoch": 266,
+        "best_val_loss": 24.13063145609735,
+        "early_stop_triggered": true
+      },
+      {
+        "refit_index": 4,
+        "refit_date": "2023-09-01",
+        "epochs_run": 258,
+        "best_epoch": 242,
+        "best_val_loss": 30.072791831007283,
+        "early_stop_triggered": true
+      },
+      {
+        "refit_index": 5,
+        "refit_date": "2023-10-02",
+        "epochs_run": 272,
+        "best_epoch": 256,
+        "best_val_loss": 27.849861663522073,
+        "early_stop_triggered": true
+      },
+      {
+        "refit_index": 6,
+        "refit_date": "2023-11-01",
+        "epochs_run": 262,
+        "best_epoch": 246,
+        "best_val_loss": 26.011461128308934,
+        "early_stop_triggered": true
+      },
+      {
+        "refit_index": 7,
+        "refit_date": "2023-12-01",
+        "epochs_run": 244,
+        "best_epoch": 228,
+        "best_val_loss": 27.688411083036257,
+        "early_stop_triggered": true
+      }
+    ]
+  },
+  "parameter_count": 23873,
+  "seeds": {
+    "python": 1337,
+    "numpy": 1337,
+    "torch": 1337,
+    "cuda_seed": null
+  },
+  "window_length": 90,
+  "batch_size": 32,
+  "tuned_hyperparameters": {
+    "hidden_size": 64,
+    "num_layers": 1,
+    "dropout": 0.2,
+    "optim": "Adam",
+    "lr": 0.001,
+    "batch_size": 32,
+    "patience": 15,
+    "weight_decay": 0.0,
+    "grad_clip_norm": null,
+    "seq_len": 90
+  },
+  "target_scaling": "none",
+  "inverse_transform_applied": false,
+  "features_used": [
+    "Close",
+    "High",
+    "LogRet_1d",
+    "Low",
+    "MACD",
+    "MACD_Signal",
+    "Nw_SP500_active_rl",
+    "Nw_SP500_burst_day",
+    "Nw_SP500_count_items",
+    "Nw_SP500_ewma3_s",
+    "Nw_SP500_ewma7_s",
+    "Nw_SP500_mean_p_neg",
+    "Nw_SP500_mean_p_neu",
+    "Nw_SP500_mean_p_pos",
+    "Nw_SP500_mean_s",
+    "Nw_SP500_median_s",
+    "Nw_SP500_q10_s",
+    "Nw_SP500_q90_s",
+    "Nw_SP500_zero_day",
+    "Open",
+    "RSI_14",
+    "Return_1d",
+    "SMA_21",
+    "SMA_7",
+    "Vol_21",
+    "Vol_7",
+    "Volume"
+  ],
+  "features_sha256": "7514eba8d4d1458a93da81e37410ca16a27286f756d05a76966c4d095c7115fe",
+  "sentiment_zero_columns": [
+    "Nw_SP500_active_rl",
+    "Nw_SP500_burst_day",
+    "Nw_SP500_count_items",
+    "Nw_SP500_ewma3_s",
+    "Nw_SP500_ewma7_s",
+    "Nw_SP500_mean_p_neg",
+    "Nw_SP500_mean_p_neu",
+    "Nw_SP500_mean_p_pos",
+    "Nw_SP500_mean_s",
+    "Nw_SP500_median_s",
+    "Nw_SP500_q10_s",
+    "Nw_SP500_q90_s",
+    "Nw_SP500_zero_day"
+  ],
+  "clock_invariants": {
+    "market_timezone": "America/New_York",
+    "cutoff_local_time": "16:00:00",
+    "no_forward_fill_past_cutoff": true,
+    "sentiment_zero_encoding_on_no_activity_days": true
+  },
+  "tuning_meta": {
+    "ticker": "AMD",
+    "search_space": {
+      "hidden_size": [
+        32,
+        48,
+        64,
+        96
+      ],
+      "num_layers": [
+        1,
+        2
+      ],
+      "dropout": [
+        0.0,
+        0.1,
+        0.2
+      ],
+      "optim": [
+        "Adam",
+        "AdamW"
+      ],
+      "lr": [
+        0.0001,
+        0.0003,
+        0.001
+      ],
+      "batch_size": [
+        32,
+        64
+      ],
+      "patience": [
+        10,
+        15
+      ],
+      "weight_decay": [
+        0.0,
+        0.0001
+      ],
+      "grad_clip_norm": [
+        null,
+        1.0
+      ]
+    },
+    "n_trials": 24,
+    "best_trial_id": 17,
+    "search_seed": 1337,
+    "val_objective": "RMSE",
+    "tie_break": "MAE",
+    "log_path": "LSTM_SE_TUNED_FINAL/hypertune/AMD/search_log_AMD.csv",
+    "best_val": {
+      "rmse": 7.6082682609558105,
+      "mae": 4.876269817352295,
+      "u2": 1.656323064401099
+    },
+    "best_params": {
+      "hidden_size": 64,
+      "num_layers": 1,
+      "dropout": 0.2,
+      "optim": "Adam",
+      "lr": 0.001,
+      "batch_size": 32,
+      "patience": 15,
+      "weight_decay": 0.0,
+      "grad_clip_norm": null,
+      "seq_len": 90
+    }
+  },
+  "device": "cpu"
+}

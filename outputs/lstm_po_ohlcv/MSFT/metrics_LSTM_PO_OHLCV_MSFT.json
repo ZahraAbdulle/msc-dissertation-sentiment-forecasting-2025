@@ -1,0 +1,24 @@
+{
+  "RMSE": 8.419719175895459,
+  "MAE": 6.402536470596109,
+  "U2": 1.8093309985238097,
+  "DA_epsilon": 0.5,
+  "Coverage": 0.9726027397260274,
+  "n": 146,
+  "Sharpe_0bps": 0.04415285492154121,
+  "Sharpe_10bps": 0.02114804864919254,
+  "MaxDD_0bps": 0.09821665490607812,
+  "MaxDD_10bps": 0.09912433963120604,
+  "Turnover": 46,
+  "ResidualMean": 3.6070172035530845,
+  "ResidualMeanAbs": 6.402536470596109,
+  "ResidualStd": 7.6341520733930315,
+  "trading_rule": "pure_sign",
+  "tie_policy": "zero",
+  "return_type": "pct",
+  "epsilon_DA": 0.001,
+  "cost_bps": [
+    0,
+    10
+  ]
+}
