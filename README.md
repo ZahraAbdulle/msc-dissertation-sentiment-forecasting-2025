@@ -39,3 +39,26 @@ See `LICENSE`. Third-party licences are mirrored under `third_party_licenses/`.
    python src\arimax\runner.py
    python src\transformer\runner.py
    # (see notebooks/ and src/ for full usage)
+
+
+<!-- OUTPUTS-START -->
+## Outputs
+
+This repository contains the artefacts referenced in my July proposal. All results are standardised and auditable.
+
+Models: arima, arimax, lstm_po_close, lstm_po_ohlcv, lstm_se, lstm_se_hypertuned, transformer, hybrid.
+
+Each model x ticker:
+  outputs/<model>/<ticker>/
+    predictions_<MODEL>_<TICKER>.csv   # 146 one-step-ahead Test rows
+    metrics_<MODEL>_<TICKER>.json      # RMSE, MAE, U2, DA_epsilon, Sharpe, MaxDD, n
+    run_config_<MODEL>_<TICKER>.json   # seeds, sequence_length, features_used, cadence, etc.
+    [training_curves_*.png]            # optional, deep models only
+
+Provenance:
+  - provenance/outputs_index.csv        # cross-model metrics table
+  - provenance/outputs_manifest.json    # sha256 + size for all outputs
+  - env_manifest.txt                    # environment summary (PowerShell)
+
+Submission tag: viva-submission-0576719
+<!-- OUTPUTS-END -->
