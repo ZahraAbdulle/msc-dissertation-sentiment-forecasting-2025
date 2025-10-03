@@ -1,5 +1,5 @@
 {
-    "generated_utc":  "2025-10-03T10:25:38Z",
+    "generated_utc":  "2025-10-03T10:29:51Z",
     "files":  [
                   {
                       "path":  "outputs\\.gitkeep",
@@ -295,6 +295,21 @@
                       "path":  "outputs\\lstm_po_close\\MSFT\\run_config_LSTM_PO_CLOSE_MSFT.json",
                       "size_bytes":  782,
                       "sha256":  "864E9160F36F17B56195295FF443A8047C47E2EBE71B713843BDF032184D05BE"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_close\\TSLA\\metrics_LSTM_PO_CLOSE_TSLA.json",
+                      "size_bytes":  588,
+                      "sha256":  "CD03C714855785956B54546AAA70E0046AC75681FAA96FE8CCDD6E8F51B4E464"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_close\\TSLA\\predictions_LSTM_PO_CLOSE_TSLA.csv",
+                      "size_bytes":  9920,
+                      "sha256":  "D1CB5A6B70E295F1069FCAFF0942D9824097B28005DA8CBAF82A64C80364D036"
+                  },
+                  {
+                      "path":  "outputs\\lstm_po_close\\TSLA\\run_config_LSTM_PO_CLOSE_TSLA.json",
+                      "size_bytes":  782,
+                      "sha256":  "EBDC75CE32AC1A2074A9288DB9608401764D12850CA2B08341F1EC65298218B5"
                   },
                   {
                       "path":  "outputs\\lstm_po_ohlcv\\AAPL\\metrics_LSTM_PO_OHLCV_AAPL.json",

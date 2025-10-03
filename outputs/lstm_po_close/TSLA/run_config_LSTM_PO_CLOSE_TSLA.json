@@ -1,0 +1,40 @@
+{
+  "model_id": "LSTM_PO_CloseOnly",
+  "model_label": "LSTM_PO_CloseOnly (ablation)",
+  "ticker": "TSLA",
+  "features_used": [
+    "Close"
+  ],
+  "parameter_count": 50497,
+  "seeds": {
+    "global": 42
+  },
+  "cadence": "frozen_weights",
+  "window_length": 90,
+  "horizon": 1,
+  "batch_size": 64,
+  "epochs_max": 300,
+  "timezone": "America/New_York",
+  "market_close": "16:00",
+  "policy": {
+    "x_scaler": "train_only_z",
+    "y_scaled": true,
+    "inverse_transform_metrics": true
+  },
+  "target_definition": "Close.shift(-1) created after all features",
+  "target_col": "Close",
+  "splits": {
+    "train": [
+      "2021-02-03",
+      "2022-12-30"
+    ],
+    "val": [
+      "2023-01-03",
+      "2023-05-31"
+    ],
+    "test": [
+      "2023-06-01",
+      "2023-12-28"
+    ]
+  }
+}
