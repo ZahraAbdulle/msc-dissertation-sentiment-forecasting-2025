@@ -1,4 +1,5 @@
-os: Windows-10-10.0.19045-SP0
-python: 3.13.7
-machine: AMD64
-processor: AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
+generated_utc: 
+os: Microsoft Windows 10 Home 10.0.19045
+powershell: 5.1.19041.6392
+python: not available
+requirements_sha256: C5A53BB9FD39F58C45D4E9578EB86E0F03FD679CD60C5F52F52EC2D465BD1BB5
