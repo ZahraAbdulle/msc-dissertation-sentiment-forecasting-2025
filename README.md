@@ -19,3 +19,23 @@ See the top-level tree in this README. Notebooks are under `notebooks/`, reusabl
 
 ## Licence
 See `LICENSE`. Third-party licences are mirrored under `third_party_licenses/`.
+
+## Quick start
+
+1) Create a Python 3.12 virtual environment:
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+
+2) Install dependencies:
+   pip install -r requirements.txt
+
+3) Snapshot the environment and provenance:
+   python scripts\capture_env.py
+   python scripts\build_provenance.py
+   python scripts\hash_artifacts.py
+
+4) Run models (examples):
+   python src\arima\runner.py
+   python src\arimax\runner.py
+   python src\transformer\runner.py
+   # (see notebooks/ and src/ for full usage)
